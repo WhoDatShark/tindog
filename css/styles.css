@@ -1,0 +1,211 @@
+body{
+    font-family: "Montserrat";
+}
+
+/* Navbar */
+.navbar{
+    padding: 3.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    padding: 0 0.75rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.nav-item{
+    padding: 0 0.75rem;
+    font-size: larger;
+    font-weight: 500;
+}
+
+/* Title */
+
+
+#title{
+    background-color:  #ff4c68;
+    color: azure;
+}
+#title h1{
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.apple-store, .g-play{
+    margin: 1.25rem 1.25rem 0 0;
+}
+
+.cutie{
+    width: 45%;
+    display: block;
+    margin: auto;
+    padding-bottom: 3rem;
+    transform: rotate(25deg);
+}
+
+/* Features */
+
+#features{
+    padding: 6rem 0;
+}
+
+.ftr{
+    text-align: center;
+    padding: 2.5rem;
+}
+.ftricon{
+    color: #ef8172;
+    padding: 2rem;
+}
+.ftricon:hover{
+    color: #ff4c68;
+}
+.ftr h3{
+    font-size: x-large;
+}
+.ftr p{
+    color: grey;
+    font-weight: 500; 
+}
+
+/* Testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.carousel-inner{
+    text-align: center;
+    padding: 3rem;
+} 
+.testimonial-image{
+    /* display: block; */
+    margin: auto;
+    border-radius: 50rem;
+    width: 10%;
+    /* padding-right: 1.5rem; */
+}
+
+.testimonial-text{
+    text-align: center;
+    color: azure;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 3rem;
+}
+
+.testimonial-container{
+    padding: 3rem;
+}
+
+em{
+    color: azure;
+    padding-left: 1.5rem;
+}
+
+.commentors{
+    margin: auto;
+}
+
+/* Press */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 4.5rem 0;
+}
+#press img{
+    width: 17%;
+    padding: 0 2rem;
+    min-width: 10rem;
+}
+
+/* Pricing */
+
+#pricing{
+    text-align: center;
+    padding: 7rem 0;
+}
+
+.price-heading{
+    font-weight: 800;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.price-para{
+    font-weight: 500;
+    padding-bottom: 2.5rem;
+    color: grey
+}
+
+.card-header{
+    font-weight: 700;
+}
+.card-title{
+    font-weight: 800;
+    font-size: 2.7rem;
+}
+span{
+    color: grey;
+}
+.low{
+    margin-top: 1rem;
+}
+
+/* Call to action */
+
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+}
+
+.cta-heading{
+    font-weight: 800;
+    font-size: 3rem;
+    color: azure;
+    padding-top: 6rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.final-button{
+    margin-bottom: 6rem;
+    margin-top: 2rem;
+}
+
+/* Footer */
+
+#footer{
+    margin: 4rem;
+}
+.socials{
+    text-align: center;
+}
+.socials a{
+    padding: 0.8rem;
+    color: #ef8172;
+}
+.socials a:hover{
+    color: #ff4c68;
+}
+
+.info{
+    text-align: center;
+    font-size: small;
+    color: grey;
+}
+
+/* Medium = 992px */
+
+@media (max-width: 992px) {
+    .card{
+        margin: 1rem;
+    }    
+
+    .cutie{
+        width: 40%;
+        padding-top: 2rem;
+        transform: none;
+    }
+}
